@@ -28,7 +28,7 @@ The key algorithms for this program are within the ReadFile() function and the R
 
 **Classes, Inheritance:**
 
-![alt text](Battleship UML diagram.jpg "Diagram")
+![alt text](/uml_diagram.jpg "Diagram")
 
 **Overall Software Architecture:**
 
