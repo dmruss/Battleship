@@ -27,7 +27,8 @@ David Russell
 The key algorithms for this program are within the ReadFile() function and the RandomizeShips() function. The ReadFile() function will evaluate if the input file matches the correct format. After reading in and parsing the information on each ship, this function calls the ship constructor and stores the ship object in a vector which it returns. If it does not match the correct number of rows, columns, and ship names then it will throw an exception. The RandomizeShips() function contains a random number generator and an algorithm which iterates through each ship&#39;s coordinate points to look for overlapping points. If there are no overlapping points, and the ship&#39;s starting point, size and orientation do not cause it to go off the board then a ship object is instantiated and stored in a vector. This function is called from within the CompPlayer constructor.
 
 **Classes, Inheritance:**
-![alt text]("Battleship UML diagram.jpg" "Diagram")
+
+![alt text](Battleship UML diagram.jpg "Diagram")
 
 **Overall Software Architecture:**
 
