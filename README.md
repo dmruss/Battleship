@@ -6,7 +6,7 @@ David Russell
 
 **Description** : This program runs a single player version of the classic tabletop game battleship. The player faces off against the computer to see which one can sink the other&#39;s 5 ships first. The player&#39;s ship coordinates and orientation are first read in from an external csv file and then the computer&#39;s ship positions are randomly generated. The player and computer take turns guessing a coordinate which may contain a ship.
 
-**Input Requirements:**
+*Input Requirements:*
 
 **Player&#39;s ships:**.csv file. Five rows with 3 fields in each row. The first field is the name of the ship (data type: string) (valid range: Carrier, Battleship, Cruiser, Submarine, or Destroyer), the second is its starting coordinate (data type: string) (valid range: A1 - J10), and the third is its orientation (char)(valid range: V or H).
 
@@ -14,7 +14,7 @@ David Russell
 
 **Player quit:** Keyboard input. (data type char) (valid range: Q) This input allows the user to quit the game at any time.
 
-**Output Requirements:**
+*Output Requirements:*
 
 **Boards to console**. The player&#39;s ship board and attack board will be output to the console each turn. They will be output as a 10 x 10 grid with letters A - J on the x-axis along the top and 1 - 10 on the y-axis on the left. Each successful &quot;hit&quot; from a torpedo will be marked as an O in a box and an unsuccessful &quot;hit&quot; will be marked as an X. On the ship board, each of the player&#39;s ships will be shown on the board with a corresponding letter in each space it occupies (Carrier: C, Battleship: B, Cruiser: R, Submarine: S, Destroyer: D).
 
