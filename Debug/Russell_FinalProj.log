@@ -1,0 +1,12 @@
+﻿  CompPlayer.cpp
+C:\Users\dmruss\source\repos\OOP\Russell_FinalProj\Russell_FinalProj\CompPlayer.cpp(18,20): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\dmruss\source\repos\OOP\Russell_FinalProj\Russell_FinalProj\CompPlayer.cpp(44,24): warning C4018:  '<': signed/unsigned mismatch
+  HumanPlayer.cpp
+  Player.cpp
+  Ship.cpp
+  ShipBoard.cpp
+  main.cpp
+C:\Users\dmruss\source\repos\OOP\Russell_FinalProj\Russell_FinalProj\CompPlayer.cpp(98,22): warning C4018:  '<': signed/unsigned mismatch
+  Generating Code...
+C:\Users\dmruss\source\repos\OOP\Russell_FinalProj\Russell_FinalProj\main.cpp(11,12): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Russell_FinalProj.vcxproj -> C:\Users\dmruss\source\repos\OOP\Russell_FinalProj\Debug\Russell_FinalProj.exe
