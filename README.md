@@ -34,6 +34,12 @@ The program will now use the default Ship constructor to randomly create 5 ship 
 
 Once the 4 game boards are created, the game loop will begin. The game loop will continue until either all 5 of one player&#39;s ships are sunk or the player chooses to quit. It will begin by asking the player to input a coordinate to torpedo, one coordinate at a time. If it is a hit, an O will appear on the attack board, a miss will appear as an X. Then, the computer&#39;s coordinate guess is printed to the screen. A hit will be recorded on the player&#39;s ship board with an O, a miss with an X.
 
+**How to Run**
+Download project folder and unzip
+Navigate to folder in shell
+prompt>make
+promtp>./battleship
+
 **Current Status**
 
 The program runs successfully. The program was developed and tested on Visual Studio version 16.2.3. It was compiled, run, and tested on gcc version 6.3.1 on csegrid.cudenver.pvt.
