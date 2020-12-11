@@ -1,8 +1,4 @@
-Single Player Battleship Game
-
-David Russell
-
-5/8/20
+# Battleship
 
 **Description** : This program runs a single player version of the classic tabletop game battleship. The player faces off against the computer to see which one can sink the other&#39;s 5 ships first. The player&#39;s ship coordinates and orientation are first read in from an external csv file and then the computer&#39;s ship positions are randomly generated. The player and computer take turns guessing a coordinate which may contain a ship.
 
